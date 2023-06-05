@@ -1,8 +1,5 @@
 package fr.laubergine.magestick.commands;
 
-import java.util.Collection;
-
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -20,11 +17,8 @@ public class MageStickCommand implements CommandExecutor {
 		Player player = (Player) sender;
 		if (cmd.getName().equalsIgnoreCase("mstick")) {
 			if (player.hasPermission("magestick.give")) {
-				Collection<? extends Player> players = Bukkit.getServer().getOnlinePlayers();
-				ItemBuilder MageStick = new ItemBuilder(Material.STICK).setName("§5Mage Stick").setLore("Click Right to §aHeal §5all 3s", "Click Left to §fLightning Bolt").addEnchant(Enchantment.KNOCKBACK, 5);
-				for (Player newinv : players) {
-				newinv.getInventory().addItem(MageStick.toItemStack());
-				}
+				ItemBuilder MageStick = new ItemBuilder(Material.STICK).setName("§5Mage Stick").setLore("Right Click to §aHeal §5all 3s", "Left Click to §fLightning Bolt").addEnchant(Enchantment.KNOCKBACK, 5);
+				player.getInventory().addItem(MageStick.toItemStack());
 			}
 			else {
 				player.sendMessage("§cYou don't have a permission ! Please contact moderator(s) or administrateur(s) ...");
