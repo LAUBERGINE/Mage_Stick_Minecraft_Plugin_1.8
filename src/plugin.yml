@@ -1,0 +1,9 @@
+name: Mage_Stick
+description: The Mage Stick that's' all...
+author: LAUBERGINE
+version: 1.0.0
+api-version: 1.8
+main: fr.laubergine.magestick.Main
+commands:
+  mstick:
+    description: Give "THE MAGE STICK" !
