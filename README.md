@@ -8,15 +8,15 @@ MINECRAFT PLUGIN
 
 THE MAGE STICK 
 
-![Item](https://cdn.discordapp.com/attachments/804432361693511700/1115417467657912421/image.png)
+![Item](https://cdn.eggplants.fr/img/github/b23aa56/item_b23aa56.png)
 
 Left Click on Players or Mobs
 
-![Ligh](https://cdn.discordapp.com/attachments/804432361693511700/1115414110868340797/image.png)
+![Light](https://cdn.eggplants.fr/img/github/b23aa56/light_b23aa56.png)
 
 Right Click on Players (Heal Player after 3 second click)
 
-![Heal](https://cdn.discordapp.com/attachments/804432361693511700/1115414622191755374/image.png)
+![Heal](https://cdn.eggplants.fr/img/github/b23aa56/heal_b23aa56.png)
 
 
 ## Author
